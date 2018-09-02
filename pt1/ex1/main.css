@@ -11,3 +11,21 @@ body{
     border-radius: 10px;
     padding: 30px;
 }
+
+.botao{
+    border: 0;
+    padding: 10px;
+    color: white;
+}
+
+.erro{
+    background-color: red;
+}
+
+.sucesso{
+    background-color: green;
+}
+
+.aviso{
+    background-color: yellow;
+}
