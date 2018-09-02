@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h2{
+    width: 400px;
+    margin: 10px auto;
+}
+
+.formulario{
+    width: 400px;
+    margin: 30px auto;
+}
+
+.formulario input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.formulario button{
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0; 
+    width: 100px;
+    cursor: pointer;
+    outline: 0;
+    background-color: rgb(41, 93, 139);
+}
+
+.resultado{
+    width: 400px;
+    margin: auto;
+}

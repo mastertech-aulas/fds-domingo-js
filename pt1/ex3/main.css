@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.menu-header{
+    width: 300px;
+    padding: 10px;
+    background-color: #ccc;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.menu-body{
+    width: 300px;    
+    background-color: #ccc;
+    font-weight: bold;
+    display: none;
+}
+
+.menu-body a{
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #999;
+}

@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.mensagem{
+    width: 400px;
+    margin: 30px auto;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botao{
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 0; 
+    width: 100px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.botao.sucesso{
+    background-color: #2f912f;
+}
+
+.botao.erro{
+    background-color: #bb2626;
+}
+
+.botao.aviso{
+    background-color: #d0d028;
+}
